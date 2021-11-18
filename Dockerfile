@@ -1,5 +1,5 @@
 # Use a container with Go pre-installed
-FROM golang:alpine:3
+FROM golang:alpine:3.14
 
 # Copy our source file into the container
 COPY src/hello-world.go /go/hello-world.go
